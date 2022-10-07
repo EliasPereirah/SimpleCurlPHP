@@ -1,6 +1,6 @@
 # SimpleCurlPHP
 Very simple PHP CURL
-<code>
+```php
 <?php
 function getHTML($url)
 {
@@ -12,5 +12,5 @@ function getHTML($url)
     $html = curl_exec($url);
     return $html;
 }
+```
 
-</code>

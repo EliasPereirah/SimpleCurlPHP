@@ -1,3 +1,4 @@
+<?php
 function getHTML($url)
 {
     $ch = curl_init();
